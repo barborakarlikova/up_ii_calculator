@@ -19,5 +19,7 @@ def multiply(num1, num2):
 def divide(num1, num2):
     return num1/num2
 
-#comment
+# Function to power a number
+def power (num1, num2):
+    return num1 ** num2
 

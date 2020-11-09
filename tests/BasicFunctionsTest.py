@@ -1,4 +1,4 @@
-from src.BasicFunctions import add, subtract, multiply, divide
+from src.BasicFunctions import add, subtract, multiply, divide, power
 from tests.TestCore import unit_test
 
 
@@ -31,7 +31,15 @@ def divide_test():
     unit_test(2, divide, 10, 5)
     unit_test(-2, divide, -10, 5)
     unit_test(0.5, divide, -5, -10)
-    unit_test(ZeroDivisionError, divide, 5, 0)
+    # unit_test(ZeroDivisionError, divide, 5, 0)
+
+# test if power
+def power_test():
+    unit_test(4, power, 2, 2)
+    unit_test(8, power, 2, 3)
+    unit_test(25, power, 5, 2)
+    unit_test(-8, power, -2, 3)
+    unit_test(0.25, power, 2, -2)
 
 
 if __name__ == "__main__":
@@ -39,4 +47,5 @@ if __name__ == "__main__":
     subtract_test()
     multiply_test()
     divide_test()
-#comment
+    power_test()
+
