@@ -1,5 +1,5 @@
 from src.FunctionManager import FunctionManager
-from src.BasicFunctions import add, subtract, multiply, divide
+from src.BasicFunctions import add, subtract, multiply, divide, power
 
 
 # Runs the calculator.

@@ -1,10 +1,10 @@
-from src.StatisticalFuncions import mean, mode, first_quartile
+from src.StatisticalFuncions import median, mode, first_quartile
 from tests.TestCore import unit_test
 
 
-def mean_test():
-    unit_test(-3, mean, -10, 0, 1)
-    unit_test(35, mean, 2, 3, 100)
+def median_test():
+    unit_test(-3, median, -2)
+    unit_test(35, median, 18)
 
 
 def mode_test():

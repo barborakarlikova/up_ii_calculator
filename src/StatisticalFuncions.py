@@ -1,9 +1,9 @@
 # Statistical functions
 
 
-# Returns mean of given numbers
-def mean(*args):
-    return NotImplemented
+# Returns median of given numbers
+def median(num):
+    return
 
 
 # Returns mode of given numbers
